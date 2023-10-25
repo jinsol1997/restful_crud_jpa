@@ -1,0 +1,53 @@
+HELP.md
+
+# Created by https://www.gitignore.io/api/springboot
+
+### Spring Boot ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Spring Boot build output
+/target/
+
+# Application Properties
+/application*.properties
+/application*.yml
+
+# Flyway
+*flyway*
+
+# Hibernate
+*ddl-auto.sql
+
+# IntelliJ
+/.idea
+/*.iml
+*.iws
+
+# Gradle
+.gradle/
+/build/
+
+# Eclipse
+/.project
+/.settings/
+.classpath
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.netbeans/
+
+# VS Code
+.vscode/
+.settings.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
